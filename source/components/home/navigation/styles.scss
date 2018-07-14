@@ -1,5 +1,5 @@
 .Navigation {
-  $nav-height: 10vh;
+  $nav-height: 5vh;
   height: $nav-height;
   position: -webkit-sticky;
   position: sticky;
@@ -9,6 +9,7 @@
   .navbar {
     background-color: #252f3a;
     position: relative;
+    box-shadow: 0 2px 6px 0 rgba(0,0,0,.12);
   
     .navbar-header {
         min-height: $nav-height;
@@ -16,14 +17,14 @@
 
     .nav > li > a {
         color: #ffff;
-        font-size: 19px;
-        font-family: 'Roboto Slab', serif;
+        font-size: 13dp;
+        font-family: 'Open Sans', sans-serif;
         line-height: $nav-height;
         text-transform: uppercase;
         letter-spacing: 0.5px;
         padding-top: 0;
         padding-bottom: 0;
-        font-weight: bold;
+        font-weight: 200;
         opacity: 1;
     }
     .nav > li > a:hover {
@@ -34,9 +35,10 @@
   }
 
   &__logo {
-      width: 55px;
+      width: 42px;
       position: absolute;
       top: 50%;
+      left: 1%;
       transform: translateY(-50%);
   }
 }
