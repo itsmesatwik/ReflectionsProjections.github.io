@@ -1,5 +1,5 @@
 .Navigation {
-  $nav-height: 5vh;
+  $nav-height: 10vh;
   height: $nav-height;
   position: -webkit-sticky;
   position: sticky;
@@ -9,22 +9,22 @@
   .navbar {
     background-color: #252f3a;
     position: relative;
-    box-shadow: 0 6px 10px 0 rgba(0,0,0,.12);
-  
+
     .navbar-header {
         min-height: $nav-height;
     }
 
     .nav > li > a {
         color: #ffff;
-        font-size: 13px;
-        font-family: 'Open Sans', sans-serif;
+        font-size: 19px;
+        font-family: 'Roboto Slab', serif;
         line-height: $nav-height;
         text-transform: uppercase;
         letter-spacing: 0.5px;
         padding-top: 0;
         padding-bottom: 0;
-        opacity: 0;
+        font-weight: bold;
+        opacity: 1;
     }
     .nav > li > a:hover {
       color: #c9e88f;
@@ -34,10 +34,9 @@
   }
 
   &__logo {
-      width: 22px;
+      width: 55px;
       position: absolute;
-      top: 20%;
-      left: 1%;
+      top: 50%;
       transform: translateY(-50%);
   }
 }
@@ -47,9 +46,9 @@
     position: sticky;
   }
   .Navigation__logo {
-      width: 35px;
+      width: 40px;
       position: relative;
-      top: 5px;
+      top: 13px;
   }
   .Navigation {
     .navbar {

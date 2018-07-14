@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Roboto+Slab:100,300');
+@import url('https://fonts.googleapis.com/css?family=Open Sans');
 
 $bg: #0c202b;
 
@@ -9,19 +10,21 @@ body {
   width: 100vw;
   overflow-x: hidden;
   font-family: 'Roboto', sans-serif;
-  background-color: #28323f;
+
+  background-color: #14716c;
+  background-image: url('../assets/svg/home_background.svg');
   scroll-behavior: smooth;
 }
 
 h1, h2, h3, h4, h5, h6 {
   padding: 0;
   margin: 0;
-  font-weight: 300;
+  font-weight: 50;
 }
 
 p {
-  font-family: 'Roboto Slab', serif;
-  font-weight: 100;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 50;
   font-size: 1.2em;
 }
 
