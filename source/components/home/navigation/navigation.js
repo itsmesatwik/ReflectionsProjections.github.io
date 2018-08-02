@@ -45,7 +45,7 @@ class Navigation extends Component {
                         <Navbar.Toggle />
                     </Navbar.Header>
                     <Navbar.Collapse>
-                    <Nav>
+                    <Nav pullLeft>
                         <NavItem onClick={() => this.scrollTo('About')} eventKey={1} className="Navigation__item--active">About</NavItem>
                         <NavItem onClick={() => this.scrollTo('Speakers')} eventKey={2} >Speakers</NavItem>
                         <NavItem onClick={() => this.scrollTo('Sponsors')} eventKey={3} >Sponsors</NavItem>

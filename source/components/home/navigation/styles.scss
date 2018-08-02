@@ -23,6 +23,7 @@
             padding-bottom: 0;
             font-weight: 50 !important;
             opacity: 1;
+            left: 0em;
         }
         .nav>li>a:hover {
             color: #c9e88f;
@@ -37,11 +38,15 @@
         left: 5%;
         transform: translateY(-50%) !important;
     }
+    .regbutton {
+        top: 1em;
+        position: relative;
+    }   
 }
 
-.regbutton {
-    margin-top: 17%;
-}
+
+
+
 
 @media(min-width: 768px) and (max-width:1024px) {
     .navbar {
